@@ -1,0 +1,67 @@
+/* app.component.css */
+.container {
+    margin-top: 20px;
+  }
+  
+  .history {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  span {
+    font-size: 1.2em;
+  }
+  
+  .history span {
+    color: white;
+    margin-right: 6px;
+    padding: 0;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 0.8rem;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    transition: background-color 0.3s;
+  }
+  
+  .new-number {
+    animation: fade-in 0.5s ease-in-out;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  }
+  
+  /* Add a fade-in effect */
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .streak-numbers {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+  }
+  
+  .streak-number {
+    color: white;
+    margin-right: 6px;
+    padding: 5px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 0.8rem;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    transition: background-color 0.3s;
+  }
+  

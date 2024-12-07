@@ -1,1 +1,43 @@
-/* You can add global styles to this file, and also import other style files */
+/* Default Theme */
+body {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --primary-color: #0d6efd;
+    --history-bg: #f8f9fa;
+  }
+  
+  body.dark-mode {
+    --bg-color: #121212;
+    --text-color: #ffffff;
+    --primary-color: #bb86fc;
+    --history-bg: #1e1e1e;
+  }
+  
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .container {
+    background-color: var(--history-bg);
+    padding: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+  }
+  
+  button {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .history span {
+    padding: 2px 5px;
+    border-radius: 4px;
+    margin: 2px;
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+    /* Removed background-color here */
+  }
+  
